@@ -1,0 +1,43 @@
+/* LandingPage.css */
+
+/* Make overlay lighter and more professional */
+.landing-overlay {
+  background: rgba(255, 255, 255, 0.65); /* soft light effect */
+  backdrop-filter: blur(4px); /* adds subtle blur for enterprise feel */
+}
+
+/* Buttons */
+.landing-btn {
+  border-radius: 9999px; /* fully rounded pill shape */
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.landing-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+.landing-title {
+  text-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+  letter-spacing: 1px;
+}
+
+/* Subtitle */
+.landing-subtitle {
+  color: #2d3748; /* gray-800 */
+  font-size: 1.1rem;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.landing-container {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;       /* stretch to fit */
+  background-repeat: no-repeat; /* no tiling */
+  background-position: center;  /* center the image */
+}
+
